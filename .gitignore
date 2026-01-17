@@ -1,0 +1,26 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node / build tools (if any proposal uses them)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+
+# Build artifacts (if a proposal folder contains a source project)
+dist/
+build/
+.cache/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
