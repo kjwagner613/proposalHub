@@ -7,7 +7,7 @@ Current setup:
 - Netlify reads `netlify.toml` at repo root.
 - Publish directory is `dist`.
 - Build command:
-  - `mkdir -p dist && cp index.html dist/index.html && npm --prefix vintageSalon install && npm --prefix vintageSalon run build`
+  - `mkdir -p dist && cp index.html dist/index.html && npm --prefix vintageSalon install && npm --prefix vintageSalon run build && mkdir -p dist/newdd && cp -R newDD/* dist/newdd/`
 - Each proposal builds into `/dist/<lowercase-client>`.
 - Vite projects set:
   - `base: '/<lowercase-client>/'`
@@ -16,6 +16,7 @@ Current setup:
 
 Current client:
 - Vintage Salon: `vintageSalon` source folder, deploys to `/vintagesalon/`.
+- New DD: `newDD` static folder, deploys to `/newdd/`.
 
 To add a new client:
 1. Create a root folder for the client project.

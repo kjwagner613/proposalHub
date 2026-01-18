@@ -1,4 +1,3 @@
 [build]
-  command = "mkdir -p dist && cp index.html dist/index.html && npm --prefix vintageSalon install && npm --prefix vintageSalon run build"
+  command = "mkdir -p dist && cp index.html dist/index.html && npm --prefix vintageSalon install && npm --prefix vintageSalon run build && mkdir -p dist/newdd && cp -R newDD/* dist/newdd/"
   publish = "dist"
-

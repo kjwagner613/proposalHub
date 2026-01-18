@@ -11,6 +11,7 @@ The root directory contains one folder per client project:
 
 /proposalHub
     /vintageSalon  (actual proposal - source project)
+    /newDD  (static proposal)
     /bucks  (example purpose only)
     /trinity  (example purpose only)
     ...
@@ -21,6 +22,7 @@ Build output is generated under `/dist/<client>`.
 Netlify maps `/dist/<client>` folders directly to URL paths:
 
 - /vintagesalon → https://proposal.discrete-dev.com/vintagesalon
+- /newdd → https://proposal.discrete-dev.com/newdd
 - /bucks → https://proposal.discrete-dev.com/bucks
 - /trinity → https://proposal.discrete-dev.com/trinity
 
