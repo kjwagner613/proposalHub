@@ -20,7 +20,7 @@ Build output is generated under `/dist/<client>`.
 
 Netlify maps `/dist/<client>` folders directly to URL paths:
 
-- /vintage → https://proposal.discrete-dev.com/vintage
+- /vintagesalon → https://proposal.discrete-dev.com/vintagesalon
 - /bucks → https://proposal.discrete-dev.com/bucks
 - /trinity → https://proposal.discrete-dev.com/trinity
 
@@ -43,7 +43,7 @@ Any commit to `main` triggers an automatic deploy.
 
 Netlify will automatically deploy it to:
 
-https://proposal.discrete-dev.com/acmeCo
+https://proposal.discrete-dev.com/acmeco
 
 ## Removing a Proposal
 

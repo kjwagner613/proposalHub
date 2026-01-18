@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/vintageSalon/',
+  base: '/vintagesalon/',
   build: {
-    outDir: '../dist/vintageSalon',
+    outDir: '../dist/vintagesalon',
     emptyOutDir: false,
   },
   plugins: [react()],
