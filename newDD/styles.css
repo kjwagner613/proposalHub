@@ -1,0 +1,152 @@
+/* ------------------------------
+   Base Typography & Layout
+------------------------------ */
+
+:root {
+  --font-body: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: "Segoe UI Semibold", Roboto, Helvetica, Arial, sans-serif;
+
+  --color-text: #222;
+  --color-muted: #555;
+  --color-accent: #003366;
+
+  --max-width: 800px;
+  --line-height: 1.6;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: var(--line-height);
+  margin: 0;
+  padding: 2rem;
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+main {
+  max-width: var(--max-width);
+  width: 100%;
+  background: white;
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin: 0 auto;
+}
+
+/* ------------------------------
+   Headings
+------------------------------ */
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--color-accent);
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-bottom: 2px solid #e5e5e5;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+/* ------------------------------
+   Paragraphs & Lists
+------------------------------ */
+
+p {
+  margin: 1rem 0;
+  color: var(--color-text);
+}
+
+ul {
+  margin: 1rem 0 1.5rem 1.5rem;
+}
+
+li {
+  margin: 0.4rem 0;
+}
+
+/* ------------------------------
+   Tables
+------------------------------ */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #f3f3f3;
+  font-weight: 600;
+}
+
+/* ------------------------------
+   Header
+------------------------------ */
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.3rem;
+}
+
+header h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: var(--color-muted);
+  border: none;
+}
+
+/* ------------------------------
+   Print Styles
+------------------------------ */
+
+@media print {
+  body {
+    background: white;
+    padding: 0;
+  }
+
+  main {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  h1, h2, h3 {
+    color: black;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+}
