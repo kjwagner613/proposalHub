@@ -1,20 +1,44 @@
-        body {
-            height: 100%;
-            margin: 2vw;
+.montserrat-dd {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
 
-            background: radial-gradient(circle at 20% 20%, rgba(255, 249, 239, 0.65), rgba(255, 249, 239, 0) 45%),
-                linear-gradient(160deg, #3b4653 0%, #7f8a94 48%, #e3ddd4 100%);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-            position: relative;
+body {
+    height: 100%;
+    margin: 2vw;
 
-        }
+    background: radial-gradient(circle at 20% 20%, rgba(255, 249, 239, 0.65), rgba(255, 249, 239, 0) 45%),
+        linear-gradient(160deg, #3b4653 0%, #7f8a94 48%, #e3ddd4 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    font-family: "Montserrat", serif;
+    font-size: 2vw;
 
-        .page-container {
-            display: flex;
-            flex-direction: column;
-            margin-left: 50%;
-            transform:translateX(-50%);
+}
 
-        }
+.page-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    line-height: 1.7;
+    border: black solid 1px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 5%;
+    min-width: 300px;
+    max-width: 600 px;
+
+}
+
+#logo {
+    margin-left: 40%;
+    transform: translateX(-50%);
+    transform: scale(1.5);
+    margin-top: 8%;
+    margin-bottom: 8% ;
+}
