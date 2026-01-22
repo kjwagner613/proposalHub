@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Guide - Overview</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="layout-container">
+        <aside class="sidebar" id="site-sidebar"></aside>
+
+        <main class="main-content">
+            <header id="site-header"></header>
+
+            <div class="content">
+                <div class="intro">
+                    <h2>Welcome to Base Camp</h2>
+                    <p>This will serve as your user guide and technical reference for the process automation now, and future enhancements.</p>
+                    <p>This can be served with a URL or put in a self contained  app, similar to an e-book.</p>
+
+                    <div class="important">
+                        <h4>Getting Started</h4>
+                        <ul>
+                            <li>Greg Kempker is your local expert, also we are always available to assist.</li>
+                            <li>Any system is only as good as the data it is fed. Completing full customer records, logging interactions and working with the workflow will facilitate successful and efficient transition from initial order to shipping.</li>
+                            <li>Should the data ever drift from actual, there are corrective measures to re-align.</li>
+                            <li>When you go live, it is important from that point forward that all transactions within the scope of the system are accurately recorded and processed.</li>
+                        </ul>
+                    </div>
+
+                    <div class="note">
+                        <h4>Quick Access</h4>
+                        <p>You can access this guide from <span style="color: red;">(to be configured)</span></p>
+                        <code>https://userguide.sanistardump.com/</code>
+                        <p>Bookmark this URL for easy reference</p>
+                    </div>
+                </div>
+
+                <div class="section-overview">
+                    <h3>Technology Structure</h3>
+                    <p>Each of the system components has its own section represented on the top left of this guide.</p>
+                    <p>The technology used is all within the Microsoft 365 Business Premium suite, and include:</p>
+                    <ul>
+                        <li>SharePoint Online</li>
+                        <li>Power Apps</li>
+                        <li>Power Automate</li>
+                        <li>Outlook / Exchange</li>
+                        <li>Teams</li>
+                        <li>Dataverse</li>
+                    </ul>
+                    <div class="section-cards">
+                        <div class="section-card">
+                            <div class="card-number"></div>
+                            <h4>Sales Orders</h4>
+                            <p>We start at the beginning of the workflow, and it begins with submitting a Sales Order</p>
+                            <p>Everything else between now and an item being shipped and invoiced is downstream.</p>
+                            <!-- <span class="estimated-time">⏱️ 10-15 minutes</span> -->
+                        </div>
+                        <!-- Add more section cards -->
+                    </div>
+                </div>
+
+                <!-- Add environment details, support & feedback sections as needed -->
+            </div>
+        </main>
+    </div>
+
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="image-caption" id="imageCaption"></div>
+    </div>
+
+    <script src="js/partials.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Look Outs</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+
+</head>
+
+<body>
+    <div class="layout-container">
+        <aside class="sidebar" id="site-sidebar"></aside>
+
+        <main class="main-content">
+            <header id="site-header"></header>
+
+            <div class="content">
+                <div class="section-header">
+                    <div class="section-number">1</div>
+                    <h2>Look Outs</h2>
+                    <!-- <span class="estimated-time">⏱️ 10-15 minutes</span> -->
+                </div>
+
+                <div class="container1">
+                    <section class="left-section">
+                        <h3>System Related Notifications</h3>
+                        <ul>
+                            <li>Refresh</li>
+                            <li>Sign In</li>
+                            <li>Access Permissoins</li>
+                        </ul>
+                    </section>
+                    <!-- <section class="right-section">
+                        <h3>Initiate</h3>
+                        <ul>
+                            <li>Demand on Inventory - Affects available stock</li>
+                            <li>Control the conversion of reserved stock to consumed</li>
+                            <li>If you cancel a Build Order mid process, the parts it has reserved are returned via
+                                replenishment</li>
+                        </ul>
+                    </section> -->
+                </div>
+
+                <div class="image-row">
+                    <img id="refresh" class="zoomable" src="../images/watchOut-Refresh.png" alt="Refresh Notice">
+                    <div class="image-note">
+                        <h4>Refresh Notice</h4>
+                        <p>This is letting you know that since the last time you accessed the app, some changes have
+                            occurred. Whether a server side update or structural, and the version on your workstation is
+                            no longer aligned. </p>
+                        <p class="action">Action Required:</p>
+                        <p>All you must do is accept the refresh of your workstation's data. Then you will be up to
+                            data.</p>
+                    </div>
+                </div>
+
+                <div class="image-row">
+                    <img id="app-consent" class="zoomable" src="../images/PowerApps-consentForm.png"
+                        alt="PowerApps Consent Approval">
+                    <div class="image-note">
+                        <h4>Consent Approval Notice</h4>
+                        <p>This message appears because the app has been updated or republished, and it needs your
+                            approval to reconnect to Microsoft 365 services it uses — such as SharePoint, Outlook, or
+                            Dataverse.</p>
+                        <p>These connections may have been previously approved, but changes to the app or your session
+                            require re‑authorization.</p>
+                        <p class="action">Action Required:</p>
+                        <p>Click "Allow" to re‑establish the necessary connections and continue using the app.</p>
+                    </div>
+                </div>
+
+
+
+                <!--            
+                <div class="verification-list">
+                    <h4>Verification Checklist</h4>
+                    <ul class="checklist">
+                        <li>Successfully logged into portal</li>
+                        <li>Created organization</li>
+                        <li>Received credentials email</li>
+                    </ul>
+                </div> -->
+
+                <div class="navigation-links">
+                    <a href="../index.html" class="nav-link">← Back to Overview</a>
+                    <a href="section2.html" class="nav-link">Next: Sales Orders →</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="zoom-overlay">
+        <img id="zoomed-img">
+    </div>
+
+
+    <div class="modal" id="imageModal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="image-caption" id="imageCaption"></div>
+    </div>
+
+    <script src="../js/partials.js"></script>
+    <script src="../js/modal.js"></script>
+</body>
+
+</html>

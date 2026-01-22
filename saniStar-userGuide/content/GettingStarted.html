@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Getting Started</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+<div class="layout-container">
+
+  <aside class="sidebar" id="site-sidebar"></aside>
+
+  <main class="main-content">
+    <header id="site-header"></header>
+
+    <div class="content">
+
+      <!-- SECTION HEADER -->
+      <div class="section-header">
+        <div class="section-number">1</div>
+        <h2>Getting Started</h2>
+      </div>
+
+      <!-- INTRO BLOCK -->
+      <div class="container1">
+        <section class="left-section">
+          <h3>Welcome to Sanistar</h3>
+          <ul>
+            <li>This guide walks you through your first time using the system.</li>
+            <li>Everything here is focused on day‑one essentials — nothing deep or technical.</li>
+            <li>Once you’re comfortable, the other sections in the sidebar expand on each workflow.</li>
+          </ul>
+        </section>
+
+        <section class="right-section">
+          <h3>What You’ll Learn</h3>
+          <ul>
+            <li>How to sign in</li>
+            <li>How to navigate the dashboard</li>
+            <li>How live inventory works</li>
+            <li>How to start and complete a build</li>
+            <li>How shortages and replenishment appear</li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- LOGIN -->
+      <div class="image-row">
+        <img id="entry" src="../images/entryAndDash.png" alt="Login Screens">
+        <div class="image-note">
+          <h4>Signing In</h4>
+          <p>Use your assigned username and password. If you cannot sign in, your supervisor must activate your account.</p>
+          <p>Once logged in, you will land on the main dashboard.</p>
+        </div>
+      </div>
+
+      <!-- DASHBOARD -->
+      <div class="image-row">
+        <img src="../images/login-svcs-dash.png" alt="Services Dashboard Overview">
+        <div class="image-note">
+          <h4>Dashboard Overview</h4>
+          <p>The dashboard shows:</p>
+          <ul>
+            <li><strong>Launch Forms</strong> — Along the top, large buttons to initiate processes.</li>
+            <li><strong>Individual Dashboards</strong> — Beneath the buttons are red lettered links to Dashboards</li>
+            <li><strong>Date Range</strong> — Select the range for the metrics to include - Dont forget to click "Apply"</li>            
+          </ul>
+          <p>Everything updates instantly — nothing is stored or stale.</p>
+        </div>
+      </div>
+
+      <!-- STARTING A BUILD -->
+      <div class="image-row">
+        <img src="../images/placeholder-buildorder.png" alt="Start Build Order">
+        <div class="image-note">
+          <h4>Starting a Build Order</h4>
+          <p>To begin a build:</p>
+          <ul>
+            <li>Open the <strong>Production Queue</strong></li>
+            <li>Select the build order</li>
+            <li>Review required parts and quantities</li>
+            <li>Tap <strong>Start Build</strong></li>
+          </ul>
+          <p>Sanistar immediately reserves the required parts using ledger entries.</p>
+        </div>
+      </div>
+
+      <!-- PULLING PARTS -->
+      <div class="image-row">
+        <img src="../images/placeholder-pullparts.png" alt="Pull Parts">
+        <div class="image-note">
+          <h4>Pulling Parts</h4>
+          <p>When you physically pull parts from the shelf:</p>
+          <ul>
+            <li>Tap <strong>Confirm Pull</strong></li>
+            <li>Sanistar logs the consumption</li>
+            <li>Inventory updates instantly</li>
+          </ul>
+          <p>If inventory is short, you’ll see a warning before you start.</p>
+        </div>
+      </div>
+
+      <!-- COMPLETING A BUILD -->
+      <div class="image-row">
+        <img src="../images/placeholder-completebuild.png" alt="Complete Build">
+        <div class="image-note">
+          <h4>Completing a Build</h4>
+          <p>When the build is finished:</p>
+          <ul>
+            <li>Tap <strong>Complete Build</strong></li>
+            <li>Enter the quantity produced</li>
+            <li>Add optional notes</li>
+          </ul>
+          <p>Sanistar automatically creates a replenishment entry for the finished goods.</p>
+        </div>
+      </div>
+
+      <!-- RETURNS -->
+      <div class="image-row">
+        <img src="../images/placeholder-return.png" alt="Return Parts">
+        <div class="image-note">
+          <h4>Returning Parts</h4>
+          <p>If you pulled parts but didn’t use them:</p>
+          <ul>
+            <li>Open the build order</li>
+            <li>Tap <strong>Return Parts</strong></li>
+            <li>Enter the quantity being returned</li>
+          </ul>
+          <p>Sanistar logs a replenishment entry and releases the reserved demand.</p>
+        </div>
+      </div>
+
+      <!-- SHORTAGES -->
+      <div class="image-row">
+        <img src="../images/placeholder-shortage.png" alt="Shortage Notification">
+        <div class="image-note">
+          <h4>Shortages</h4>
+          <p>If inventory is insufficient, Sanistar will:</p>
+          <ul>
+            <li>Flag the shortage on the dashboard</li>
+            <li>Send a deficiency notification</li>
+            <li>Prevent the build from starting until resolved</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- NAVIGATION -->
+      <div class="navigation-links">
+        <a href="../index.html" class="nav-link">← Back to Overview</a>
+        <a href="SalesOrder.html" class="nav-link">Next: Sales Orders →</a>
+      </div>
+
+    </div>
+  </main>
+</div>
+
+<div class="modal" id="imageModal">
+  <span class="modal-close">&times;</span>
+  <img class="modal-content" id="modalImage">
+  <div class="image-caption" id="imageCaption"></div>
+</div>
+
+<script src="../js/partials.js"></script>
+<script src="../js/modal.js"></script>
+
+</body>
+</html>
