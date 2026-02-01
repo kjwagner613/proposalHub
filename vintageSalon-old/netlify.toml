@@ -1,3 +1,13 @@
 [build]
-  command = "npm run build"
+  command = """
+    mkdir -p dist \
+    && cp index.html dist/index.html \
+    && cp style.css dist/style.css \
+    && npm --prefix vintageSalon install \
+    && npm --prefix vintageSalon run build \
+    && mkdir -p dist/newdd \
+    && mkdir -p dist/sanistar-userguide \
+    && cp -R newDD/* dist/newdd/ \
+    && cp -R sanistar-userguide/* dist/sanistar-userguide/
+  """
   publish = "dist"
