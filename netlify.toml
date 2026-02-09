@@ -9,7 +9,7 @@
     && mkdir -p dist/sanistar-userguide \
     && mkdir -p dist/sla-tool \
     && cp -R newDD/* dist/newdd/ \
-    && cp -R sla=tool/* dist/sla-tool/ \
+    && cp -R sla-tool/* dist/sla-tool/ \
     && cp -R sanistar-userguide/* dist/sanistar-userguide/
   """
   publish = "dist"
