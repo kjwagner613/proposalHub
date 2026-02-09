@@ -76,11 +76,6 @@
       margin: 0;
   }
 
-  
-  .instructions {
-      display: flex;
-
-      
 
   .card {
       flex: 1;
@@ -269,6 +264,9 @@
       color: var(--muted);
       margin-top: 6px;
   }
+
+  .instructions {
+      display: flex;
 
 
   }
